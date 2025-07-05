@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nasir Hussain - Portfolio</title>
+  <style>
+    /* Basic Reset */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; color: #333; background: #f5f5f5; }
+    a { color: #0066cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* Container */
+    .container { max-width: 1000px; margin: auto; padding: 20px; }
+
+    /* Hero */
+    .hero { text-align: center; padding: 80px 20px; background: #fff; border-radius: 8px; margin-bottom: 32px; }
+    .hero h1 { font-size: 2.5em; margin-bottom: 0.5rem; }
+    .hero p { font-size: 1.2em; color: #555; }
+    .hero button { margin-top: 20px; padding: 12px 24px; font-size: 1em; background: #0066cc; color: white; border: none; border-radius: 4px; cursor: pointer; }
+    .hero button:hover { background: #004999; }
+
+    /* Sections */
+    section { margin-bottom: 48px; }
+    h2 { margin-bottom: 16px; font-size: 1.8em; border-bottom: 2px solid #0066cc; padding-bottom: 8px; }
+    .grid { display: grid; gap: 24px; }
+    .two-col { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+
+    /* Projects */
+    .project { background: #fff; padding: 16px; border-radius: 6px; }
+    .project h3 { margin-bottom: 0.5rem; }
+    .project p { margin-bottom: 0.8rem; }
+    .project a { font-weight: bold; }
+
+    /* Action Plan */
+    .action-plan ol { padding-left: 20px; }
+    .action-plan li { margin-bottom: 12px; }
+
+    /* Contact */
+    .contact form { display: grid; gap: 12px; }
+    .contact input, .contact textarea { padding: 10px; border: 1px solid #ccc; border-radius: 4px; width: 100%; }
+    .contact button { padding: 12px; border: none; background: #0066cc; color: white; border-radius: 4px; cursor: pointer; }
+    .contact button:hover { background: #004999; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>Nasir Hussain</h1>
+      <p>Strategic thinker from Vaishali, Bihar, crafting impactful digital solutions.</p>
+      <button onclick="document.getElementById('projects').scrollIntoView()">View Projects</button>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Hello, I’m <strong>Nasir Hussain</strong>, a proactive professional from Vaishali, Bihar. I love turning visionary ideas into measurable outcomes through strategic planning, design thinking, and execution. My strengths include analytical problem-solving and UX‑focused development.</p>
+    </section>
+
+    <section id="action">
+      <h2>Action Plan</h2>
+      <div class="action-plan">
+        <ol>
+          <li><strong>Research & Insights:</strong> Conduct market study → Deliver report</li>
+          <li><strong>Design & Planning:</strong> Wireframes + user flows → Review</li>
+          <li><strong>Build & Iterate:</strong> Develop MVP → User testing → Refine</li>
+          <li><strong>Launch & Measure:</strong> Live deployment → Track KPIs → Optimize</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid two-col">
+        <div class="project">
+          <h3>Community Outreach Portal (2025)</h3>
+          <p>Developed a user‑centric platform to connect volunteers with local NGOs.</p>
+          <p><strong>My Role:</strong> Research → UX/UI design → Front-end build → Launch</p>
+          <a href="#">View Case Study →</a>
+        </div>
+        <div class="project">
+          <h3>Skills Tracker App (2024)</h3>
+          <p>A responsive tool to help individuals track and visualize personal growth.</p>
+          <p><strong>My Role:</strong> Architecture → Prototype → User testing → Deployment</p>
+          <a href="#">View App Demo →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="5" placeholder="Your message..." required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </div>
+</body>
+</html>
+hi iam a hacker please teach me hacking pleasebro
+ yo
